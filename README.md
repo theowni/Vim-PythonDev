@@ -25,4 +25,4 @@ Targetted for Python developers or just scripting, I'm using it with Kali ;)
 * <Ctrl-n> *open buffer*
 
 ### Screenshot:
-![alt text](https://github.com/theowni/Vim-PythonDev/screen.png "Screenshot")
+![alt text](https://raw.githubusercontent.com/theowni/Vim-PythonDev/master/screen.png "Screenshot")
