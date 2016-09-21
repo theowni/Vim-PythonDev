@@ -25,6 +25,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'vim-scripts/indentpython.vim'
 
 
 " All of your Plugins must be added before the following line
@@ -59,12 +60,31 @@ set number
 
 set hidden
 
+au BufNewFile,BufRead *.py
+    \ set tabstop=4 |
+    \ set softtabstop=4 |
+    \ set shiftwidth=4 |
+    \ set textwidth=120 |
+    \ set expandtab |
+    \ set autoindent |
+    \ set fileformat=unix
+
+au BufNewFile,BufRead *.js, *.html, *.css
+    \ set tabstop=2 |
+    \ set softtabstop=2 |
+    \ set shiftwidth=2
+
+highlight BadWhitespace ctermbg=red guibg=darkred
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+
 " Below add Your customization for specific plugins
 "
 "
 
 " hdima/python-syntax
 let python_highlight_all = 1
+
+syntax enable
 
 " davidhalter/jedi-vim
 autocmd FileType python setlocal completeopt-=preview 
@@ -93,5 +113,3 @@ let g:airline_powerline_fonts = 1
 
 " set color scheme
 colorscheme Benokai
-
-syntax enable
