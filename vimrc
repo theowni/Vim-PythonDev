@@ -57,6 +57,8 @@ map <C-n> :NERDTree<CR>
 
 set number
 
+set hidden
+
 " Below add Your customization for specific plugins
 "
 "
@@ -72,6 +74,7 @@ autocmd FileType python setlocal completeopt-=preview
 
 " vim-airline/vim-airline
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
 
 set ttimeoutlen=50
 let g:airline_theme = 'powerlineish'
