@@ -19,10 +19,10 @@ Targetted for Python developers or just scripting, I'm using it with Kali ;)
 * [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
 
 ### Custom Mappings:
-* <Ctrl-e> *previous buffer*
-* <Ctrl-p> *next buffer*
-* <Ctrl-x> *close buffer*
-* <Ctrl-n> *open buffer*
+* **Ctrl-e** *previous buffer*
+* **Ctrl-p** *next buffer*
+* **Ctrl-x** *close buffer*
+* **Ctrl-n** *open buffer*
 
 ### Screenshot:
 ![alt text](https://raw.githubusercontent.com/theowni/Vim-PythonDev/master/screen.png "Screenshot")
