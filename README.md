@@ -23,3 +23,6 @@ Targetted for Python developers or just scripting, I'm using it with Kali ;)
 * <Ctrl-p> *next buffer*
 * <Ctrl-x> *close buffer*
 * <Ctrl-n> *open buffer*
+
+### Screenshot:
+![alt text](https://github.com/theowni/Vim-PythonDev/screen.png "Screenshot")
