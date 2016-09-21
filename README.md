@@ -3,8 +3,12 @@
 Automatic deploying Vim installation scripts.  
 Targetted for Python developers or just scripting, I'm using it with Kali ;)
 
-##### Plugins: 
-*  [Vundle](https://github.com/VundleVim/Vundle.vim)- *plugin manager*
+### Installation:
+Just run:  
+```fab install```
+
+### Plugins: 
+* [Vundle](https://github.com/VundleVim/Vundle.vim)- *plugin manager*
 * [PEP8](https://github.com/hynek/vim-python-pep8-indent)
 * [flake8](https://github.com/nvie/vim-flake8)
 * [python-syntax](https://github.com/hdima/python-syntax) - *nicer python syntax*
