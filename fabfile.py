@@ -4,6 +4,7 @@ from fabric.api import local
 def install():
     _prepare_os()
     _install_dependencies()
+    _install_fonts()
     _setup_vim()
 
 
@@ -18,6 +19,11 @@ def _install_dependencies():
     local('sudo pip install flake8')
     local('sudo pip install jedi')
     local('sudo pip install powerline-status')
+
+
+def _install_fonts():
+    local('git clone https://github.com/powerline/fonts')
+    local('cd fonts && sudo ./install.sh')
 
 
 def _setup_vim():
