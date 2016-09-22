@@ -8,6 +8,11 @@ def install():
     _setup_vim()
 
 
+def clean_and_install():
+    _clean()
+    install()
+
+
 def _prepare_os():
     local('sudo apt-get install vim')
     local('mkdir -p ~/.vim/bundle')
@@ -28,3 +33,9 @@ def _install_fonts():
 
 def _setup_vim():
     local('vim +PluginInstall +qall')
+
+
+def _clean():
+    local('rm -rf ~/.vimrc')
+    local('rm -rf ~/.vim/*')
+    local('rm -rf ./fonts')

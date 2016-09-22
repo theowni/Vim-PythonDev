@@ -4,8 +4,11 @@ Automatic deploying Vim installation scripts.
 Targetted for Python developers or just scripting, I'm using it with Kali ;)
 
 ### Installation:
-Just run:  
+For fresh install just run:  
 ```fab install```
+
+For deleting old customizations:
+``` fab clean_and_install ```
 
 ### Plugins: 
 * [Vundle](https://github.com/VundleVim/Vundle.vim)- *plugin manager*
