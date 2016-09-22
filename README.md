@@ -7,7 +7,7 @@ Targetted for Python developers or just scripting, I'm using it with Kali ;)
 For fresh install just run:  
 ```fab install```
 
-For deleting old customizations:
+For deleting old customizations:  
 ``` fab clean_and_install ```
 
 ### Plugins: 
