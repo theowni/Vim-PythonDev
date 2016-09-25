@@ -26,10 +26,17 @@ For deleting old customizations:
 * [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
 
 ### Custom Mappings:
-* **Ctrl-e** *previous buffer*
-* **Ctrl-p** *next buffer*
+* **Ctrl-e** *switch to previous buffer*
+* **Ctrl-p** *switch to next buffer*
 * **Ctrl-x** *close buffer*
-* **Ctrl-n** *open buffer*
+* **Ctrl-n** *open NERDTree*
+* **Ctrl-c** *close NERDTree*
+* **Ctrl-w** *save file*
+* **Ctrl-Space** *quit vim (or splitted tab if more than one) *
+* **Ctrl-h** *switch to left splitted tab*
+* **Ctrl-j** *switch to lower splitted tab*
+* **Ctrl-k** *switch to upper splitted tab*
+* **Ctrl-l** *switch to right splitted tab*
 
 ### Screenshot:
 ![alt text](https://raw.githubusercontent.com/theowni/Vim-PythonDev/master/screen.png "Screenshot")

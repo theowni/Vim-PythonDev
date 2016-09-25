@@ -46,15 +46,33 @@ filetype plugin indent on    " required
 
 " Below add Your mappings
 
-map <C-e> :bprevious<CR>
+nnoremap <C-J> <C-W><C-J>
 
-map <C-p> :bnext<CR>
+nnoremap <C-K> <C-W><C-K>
 
-map <C-x> :bdelete<CR>
+nnoremap <C-L> <C-W><C-L>
 
-map <C-n> :NERDTree<CR>
+nnoremap <C-H> <C-W><C-H>
+
+noremap <C-e> :bprevious<CR>
+
+noremap <C-p> :bnext<CR>
+
+noremap <C-x> :bdelete<CR>
+
+noremap <C-n> :NERDTree<CR>
+
+noremap <C-c> :NERDTreeClose<CR>
+
+noremap <C-w> :w<CR>
+
+noremap <NUL> :q<CR>
 
 " Below add Your customization
+
+set splitbelow
+ 
+set splitright
 
 set number
 
