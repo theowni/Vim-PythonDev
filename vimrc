@@ -62,8 +62,6 @@ noremap <C-x> :bdelete<CR>
 
 noremap <C-n> :NERDTree<CR>
 
-noremap <C-c> :NERDTreeClose<CR>
-
 noremap <C-w> :w<CR>
 
 noremap <NUL> :q<CR>

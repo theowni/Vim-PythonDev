@@ -30,9 +30,8 @@ For deleting old customizations:
 * **Ctrl-p** *switch to next buffer*
 * **Ctrl-x** *close buffer*
 * **Ctrl-n** *open NERDTree*
-* **Ctrl-c** *close NERDTree*
 * **Ctrl-w** *save file*
-* **Ctrl-Space** *quit vim (or splitted tab if more than one) *
+* **Ctrl-Space** *quit vim (NERDTree or splitted tab if more than one) *
 * **Ctrl-h** *switch to left splitted tab*
 * **Ctrl-j** *switch to lower splitted tab*
 * **Ctrl-k** *switch to upper splitted tab*
