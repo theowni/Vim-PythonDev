@@ -15,7 +15,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Keep all Your plugins below that line
 Plugin 'hynek/vim-python-pep8-indent'
 Plugin 'nvie/vim-flake8'
-Plugin 'hdima/python-syntax'
+Plugin 'scrooloose/syntastic'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jmcantrell/vim-virtualenv'
